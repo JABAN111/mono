@@ -3,7 +3,7 @@ from django.apps import AppConfig
 
 class MonoConfig(AppConfig):
 
-    name = 'mono'
+    name = 'MonoSpeedRun.apps.mono'
     print('ne mongo db, just mono' * 200)
     plugin_app = {
         "url_config": {
